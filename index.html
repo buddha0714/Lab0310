@@ -6,6 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
+    body {
+  background-image: url('./img/dogecoin.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+h1,h4{text-align: center;}
     li div img {
       height: 32px;
     }
@@ -72,9 +79,10 @@
 
     .carousel-item>img {
       /* height: 360px; */
-        max-width: 100%;
+        max-width: 70%;
       /* position: absolute; */
-      /* margin: auto; */
+      margin-left:200px;
+      
 
     }
 
@@ -104,7 +112,7 @@
   <div>
     <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
       <!-- Brand -->
-      <a class="navbar-brand" href="#"> 行動支付</a>
+      <a class="navbar-brand" href="#"> 購物網</a>
 
       <!-- Links -->
       <ul class="navbar-nav">
@@ -149,7 +157,7 @@
         <form class="form-inline" action="/action_page.php">
           <input class="form-control mr-sm-2" type="text" placeholder="Search">
           <button class="btn btn-outline-secondary" type="submit">Search</button>
-          <button type="button" class="btn btn-outline-primary">登入 <i class="fa fa-bars"></i></button>
+          <button type="button" class="btn btn-outline-primary">會員 <i class="fa fa-bars"></i></button>
           <button type="button" class="btn btn-outline-primary">註冊 <i class="fa fa-bars"></i></button>
         </form>
 
@@ -157,15 +165,35 @@
 
   </div>
 
-
   <br>
   <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <h1>輕鬆購買你要的商品</h1>
+  <h4>便捷快速的交易服務</h4>
+  <br>
+  
 
-
-
-
-
-
+  <form method="post" action="main.php">
+    <p align="center">
+      
+      <input type="text" name="name" size="20" placeholder="登入帳號">
+      <input type="submit" class="btn btn-light" value="登入 Login">   
+      <input type="reset" class="btn btn-outline-light" value="重新輸入">
+    </P>                     
+  </form>
+<br>
+<br>
+<br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
 
 
 
